@@ -758,10 +758,11 @@ p {
 }
 
 .banner__items {
-  background: url(../../assets/img/banner/banner5.png) no-repeat center center;
+  background: url() no-repeat center center;
   background-size: cover;
   padding: 250px 0 200px;
   position: relative;
+  background-color: #03023b;
 }
 .banner__items::before {
   position: absolute;
