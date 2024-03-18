@@ -625,10 +625,17 @@ p {
   transition: all 0.9s;
   padding: 21px 0 21px;
 }
-.header-wrapper .logo-menu {
-  max-width: 160px;
+.header-wrapper .logo-menu, .footer-logo {
+  max-width: 120px;
   height: auto;
 }
+@media screen and (max-width: 767px) {
+  .header-wrapper .logo-menu, .footer-logo {
+    max-width: 70px;
+    height: auto;
+  }
+}
+
 .header-wrapper .logo-menu img {
   width: 100%;
   height: 100%;
